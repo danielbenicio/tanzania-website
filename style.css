@@ -1,0 +1,295 @@
+/* GLOBAL */
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* HEADER */
+
+.header {
+    height: 15.3vh;
+    width: 100vw;
+}
+
+.header .nav-bar {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .nav-bar img {
+    height:7.9vh;
+
+}
+
+.header .nav-bar .nav-menus{
+    list-style: none;
+
+    display: flex;
+}
+
+.header .nav-bar .nav-menus li{  
+    margin: 0 1vw;
+
+    opacity: 70%;
+
+    font-weight: 500;
+    font-size:2.3rem;
+}
+
+.header .nav-bar .nav-menus a{  
+    color: black;
+    text-decoration: none;
+
+    transition: 1s;
+}
+
+.header .nav-bar .nav-menus li a:hover:after{
+    width: 100%;
+}
+
+.header .nav-bar .nav-menus li a:hover{
+    text-decoration: none;
+
+    color:#FCA26E;
+}
+
+.header .nav-bar .btnSignIn {
+    min-width: 50px;
+    height: 60%;
+    width: 10%;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    background-color: #fff;
+
+    text-decoration: none;
+
+    font-weight: 600;
+    font-size: 1.2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 1s;
+
+   border:none;
+
+    cursor: pointer;
+}
+
+.header .nav-bar .btnSignIn:hover{
+    border: none;
+
+    background-color:#FCA26E;
+    color:white;
+}
+
+/* HOME */
+
+.home-area {
+    width: 100%;
+}
+
+.home-area .front{
+    margin-left: 65vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-top: 10vh;
+}
+
+.home-area .front .phrase{
+    display: flex;
+    flex-direction: column;
+
+    width:38vw;
+
+    margin-top: -5vh;
+    margin-left: -13vw;
+}
+
+.home-area .front .phrase a {
+    margin-bottom:-2vh ;
+
+    height: 5vh;
+    width: 8vw;
+
+    border-radius: 20px;
+
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    background-color:#FCCA94;
+
+    color: #000;
+    text-decoration: none;
+
+    font-weight: 600;
+    font-size: 1.2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 1s;
+
+    border:none;
+
+    cursor:default;
+}
+
+
+.home-area .front .phrase h1 {
+    font-size:10rem;
+    font-weight: 500;
+}
+
+.home-area .front .phrase span {
+    margin: 0 1vw;
+
+    opacity: 50%;
+
+    font-weight: 500;
+    font-size:1.8rem;
+}
+
+.home-area .front .phrase .travel {
+    margin-left: 1vw;
+    margin-top: 4vh;
+
+    height: 9vh;
+    width: 15vw;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    background-color:#000;
+
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+
+    font-weight: 600;
+    font-size: 1.2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 1s;
+
+    border:none;
+
+    cursor: pointer;
+}
+
+.home-area .front .phrase .travel:hover{
+    background-color:#fff;
+    color: black;
+}
+
+.home-area .front .phrase .buttons {
+    margin-top:10vh;
+    width: 25vw;
+
+    display: flex;
+}
+
+.home-area .front .phrase .buttons a {
+    margin:5px;
+
+    height: 7vh;
+    width: 30vw;
+
+    border-radius: 20px;
+
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    background-color:#fff;
+
+    color: #000;
+    text-decoration: none;
+
+    font-weight: 600;
+    font-size: 1.2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+    transition: 1s;
+
+    border:none;
+
+    cursor:default;
+}
+
+.home-area .front .phrase .buttons-down {
+    width: 25vw;
+
+    display: flex;
+}
+
+.home-area .front .phrase .buttons-down a {
+    margin:5px;
+
+    height: 7vh;
+    width: 30vw;
+
+    border-radius: 20px;
+
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    background-color:#fff;
+
+    color: #000;
+    text-decoration: none;
+
+    font-weight: 600;
+    font-size: 1.2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    transition: 1s;
+
+    border:none;
+
+    cursor:default;
+}
+
+.home-area .front .forest {
+    margin-right: 45vw;
+
+    margin-top: -15vh;
+
+    height: 90vh;
+    width:100vw;
+}
+
+
